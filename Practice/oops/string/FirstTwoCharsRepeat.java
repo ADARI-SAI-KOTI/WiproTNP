@@ -14,7 +14,7 @@ public class FirstTwoCharsRepeat {
             return;
         }
 
-        String repeatStr = str.length() < 2 ? str : str.substring(0, 2);
+        String repeatStr = n < 2 ? str : str.substring(0, 2);
         StringBuilder result = new StringBuilder();
 
         for (int i = 0; i < n; i++) {
